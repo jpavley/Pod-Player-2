@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -704,13 +704,44 @@
             <objects>
                 <viewController id="bE4-l4-KR8" sceneMemberID="viewController">
                     <view key="view" id="f9s-JJ-KPN">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="asN-Cf-0mF">
+                                <rect key="frame" x="-1" y="-2" width="202" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="c2c-ZU-2SH"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Add Podcast" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vC8-qa-X1G">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVc-YB-fec">
+                                <rect key="frame" x="5" y="31" width="190" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="DLR-lL-Rne"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="BK9-pg-CLR">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="asN-Cf-0mF" firstAttribute="leading" secondItem="f9s-JJ-KPN" secondAttribute="leading" constant="5" id="873-Ew-nzS"/>
+                            <constraint firstItem="XVc-YB-fec" firstAttribute="leading" secondItem="f9s-JJ-KPN" secondAttribute="leading" constant="5" id="IIE-K5-g1f"/>
+                            <constraint firstAttribute="trailing" secondItem="asN-Cf-0mF" secondAttribute="trailing" constant="5" id="Juy-D0-tY4"/>
+                            <constraint firstAttribute="bottom" secondItem="asN-Cf-0mF" secondAttribute="bottom" constant="5" id="SgE-5V-fq6"/>
+                            <constraint firstItem="asN-Cf-0mF" firstAttribute="top" secondItem="XVc-YB-fec" secondAttribute="bottom" constant="5" id="vPx-6j-Hsl"/>
+                            <constraint firstAttribute="trailing" secondItem="XVc-YB-fec" secondAttribute="trailing" constant="5" id="yns-s5-Tpp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="Muk-gH-LwD" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749" y="467"/>
+            <point key="canvasLocation" x="624" y="467"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VEX-TH-Leb">
