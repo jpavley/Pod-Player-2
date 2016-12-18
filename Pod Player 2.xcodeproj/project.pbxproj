@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B85B25D81E064EF4000B58BD /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B25D71E064EF4000B58BD /* PodcastViewController.swift */; };
 		B9CD66F11E00DBB4005C4A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CD66F01E00DBB4005C4A12 /* AppDelegate.swift */; };
-		B9CD66F31E00DBB4005C4A12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CD66F21E00DBB4005C4A12 /* ViewController.swift */; };
 		B9CD66F61E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9CD66F41E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld */; };
 		B9CD66F81E00DBB5005C4A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CD66F71E00DBB5005C4A12 /* Assets.xcassets */; };
 		B9CD66FB1E00DBB5005C4A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CD66F91E00DBB5005C4A12 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B85B25D71E064EF4000B58BD /* PodcastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
 		B9CD66ED1E00DBB4005C4A12 /* Pod Player 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod Player 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CD66F01E00DBB4005C4A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9CD66F21E00DBB4005C4A12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9CD66F51E00DBB4005C4A12 /* Pod_Player_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pod_Player_2.xcdatamodel; sourceTree = "<group>"; };
 		B9CD66F71E00DBB5005C4A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9CD66FA1E00DBB5005C4A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				B9CD66F01E00DBB4005C4A12 /* AppDelegate.swift */,
-				B9CD66F21E00DBB4005C4A12 /* ViewController.swift */,
 				B9CD66F71E00DBB5005C4A12 /* Assets.xcassets */,
 				B9CD66F91E00DBB5005C4A12 /* Main.storyboard */,
 				B9CD66FC1E00DBB5005C4A12 /* Info.plist */,
 				B9CD66F41E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld */,
+				B85B25D71E064EF4000B58BD /* PodcastViewController.swift */,
 			);
 			path = "Pod Player 2";
 			sourceTree = "<group>";
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85B25D81E064EF4000B58BD /* PodcastViewController.swift in Sources */,
 				B9CD66F61E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld in Sources */,
-				B9CD66F31E00DBB4005C4A12 /* ViewController.swift in Sources */,
 				B9CD66F11E00DBB4005C4A12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
