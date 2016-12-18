@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				B9CD66F01E00DBB4005C4A12 /* AppDelegate.swift */,
+				B85B25D71E064EF4000B58BD /* PodcastViewController.swift */,
 				B9CD66F71E00DBB5005C4A12 /* Assets.xcassets */,
 				B9CD66F91E00DBB5005C4A12 /* Main.storyboard */,
 				B9CD66FC1E00DBB5005C4A12 /* Info.plist */,
 				B9CD66F41E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld */,
-				B85B25D71E064EF4000B58BD /* PodcastViewController.swift */,
 			);
 			path = "Pod Player 2";
 			sourceTree = "<group>";
