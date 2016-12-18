@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B85B25D81E064EF4000B58BD /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B25D71E064EF4000B58BD /* PodcastViewController.swift */; };
+		B85B25DA1E06537B000B58BD /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B25D91E06537B000B58BD /* Parser.swift */; };
+		B85B25DD1E0715F4000B58BD /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B25DB1E0715F4000B58BD /* SWXMLHash.swift */; };
+		B85B25DE1E0715F4000B58BD /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B25DC1E0715F4000B58BD /* SWXMLHash+TypeConversion.swift */; };
 		B9CD66F11E00DBB4005C4A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CD66F01E00DBB4005C4A12 /* AppDelegate.swift */; };
 		B9CD66F61E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9CD66F41E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld */; };
 		B9CD66F81E00DBB5005C4A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CD66F71E00DBB5005C4A12 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		B85B25D71E064EF4000B58BD /* PodcastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
+		B85B25D91E06537B000B58BD /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B85B25DB1E0715F4000B58BD /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		B85B25DC1E0715F4000B58BD /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
 		B9CD66ED1E00DBB4005C4A12 /* Pod Player 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod Player 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CD66F01E00DBB4005C4A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9CD66F51E00DBB4005C4A12 /* Pod_Player_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pod_Player_2.xcdatamodel; sourceTree = "<group>"; };
@@ -35,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B85B25DF1E07161F000B58BD /* SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				B85B25DB1E0715F4000B58BD /* SWXMLHash.swift */,
+				B85B25DC1E0715F4000B58BD /* SWXMLHash+TypeConversion.swift */,
+			);
+			name = SWXMLHash;
+			sourceTree = "<group>";
+		};
 		B9CD66E41E00DBB4005C4A12 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +75,8 @@
 				B9CD66F91E00DBB5005C4A12 /* Main.storyboard */,
 				B9CD66FC1E00DBB5005C4A12 /* Info.plist */,
 				B9CD66F41E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld */,
+				B85B25D91E06537B000B58BD /* Parser.swift */,
+				B85B25DF1E07161F000B58BD /* SWXMLHash */,
 			);
 			path = "Pod Player 2";
 			sourceTree = "<group>";
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85B25DA1E06537B000B58BD /* Parser.swift in Sources */,
+				B85B25DE1E0715F4000B58BD /* SWXMLHash+TypeConversion.swift in Sources */,
 				B85B25D81E064EF4000B58BD /* PodcastViewController.swift in Sources */,
 				B9CD66F61E00DBB4005C4A12 /* Pod_Player_2.xcdatamodeld in Sources */,
+				B85B25DD1E0715F4000B58BD /* SWXMLHash.swift in Sources */,
 				B9CD66F11E00DBB4005C4A12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
